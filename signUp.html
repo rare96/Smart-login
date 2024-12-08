@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="home">
+        <div class="container py-5 w-50 text-center">
+            <div class="loginBox">
+                <h1 class="my-5">Sign Up</h1>
+                <div class="inputForm">
+                    <input type="text" class="form-control" placeholder="Enter your name" required id="signupName"/>
+                    <input type="email" class="form-control mt-3" placeholder="Enter your email" required id="signupEmail"/>
+                    <input type="password" class="form-control mt-3" placeholder="Enter your password" required id="signupPassword"/>
+                    <button id="signupBtn" onclick="signUp()" class="btn btn-outline-primary my-4 w-25">Sign Up</button>
+                </div>
+                <div class="signupbox d-flex justify-content-center gap-2 mt-1">
+                    <p>Already have an account?</p>
+                    <a class="text-decoration-none" href="index.html">Log In</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

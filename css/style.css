@@ -1,0 +1,56 @@
+body {
+    color: #73a4dc;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.home {
+    height: 100vh;
+    background-image: url(../bg.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+nav {
+    box-shadow: 0px -8px 22px 4px rgba(0, 77, 165, 0.45);
+    background-color: rgb(253 253 253 / 43%) !important;
+}
+
+.navbar-toggler {
+    border: none;
+    color: var(--mainColor);
+    font-size: 1.375rem;
+}
+
+main .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+main .form-control:focus {
+    border-color: #004da413;
+    box-shadow: 0 0 0 0.25rem rgba(0, 76, 163, 0.25);
+}
+
+.boxContainer {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(253 253 253 / 43%);
+    box-shadow: -6px 10px 15px -5px rgba(0, 77, 165, 0.45);
+    border: #004da413 1px solid;
+}
+
+.swal-button {
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: #003694;
+    border-color: #003694;
+}
